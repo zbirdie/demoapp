@@ -1,14 +1,7 @@
-class StaticPagesController < ApplicationController:: TestCase
-  test "should get home" do
-    get :home
-    assert_response :successfully
-    
-  end
+class StaticPagesController < ApplicationController
   def home
   end
 
   def help
   end
 end
-
-
